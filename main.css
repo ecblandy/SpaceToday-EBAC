@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400&display=swap%27%29%3B');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.925);
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #e5aeffe7;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-header img {
+    width: 34px;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+header ul li {
+    list-style: none;
+    display:inline;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header ul li a:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.form-header {
+    display: flex;
+    gap: 8px;
+}
+
+.boxh-input label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.boxh-input input {
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    height: 20px;
+    max-width: 163px;
+    width: 90%;
+}
+
+section img {
+    max-width: 500px;
+    width: 90%;
+}
+
+section h2 {
+    color:#e5aeffe7; 
+    margin-bottom: 16px;
+    border-bottom: 2px solid rgb(0, 255, 0);
+    width: 100%;
+}
+
+section p {
+    color: #ffffffd5;
+    margin-bottom: 8px;
+}
+
+.brands-list img {
+    width: 30px;
+}
+
+.brands-list img:hover {
+    transform: scale(1.2);
+}
+
+.brands-list li {
+    display: inline;
+    list-style: none;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+.front-loja {
+    margin-right: 32px;
+}
+
+.produtos-lista {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 70px;
+}
+
+section h3 {
+    color: #fff;
+}
+
+button {
+    width: 240px;
+    border: none;
+    background-color: rgb(0, 255, 0);
+    color: #080808;
+    font-weight: bold;
+    font-style: italic;
+    padding: 8px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #e5aeffe7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
