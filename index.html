@@ -17,7 +17,7 @@
     <header>
         <div class="container">
             <div class="logo-header">
-                <a href="#"><img src="./img/space-awesome (1).svg" alt=""></a>
+                <a href="#"><img class="logo-img" src="./img/space-awesome (1).svg" alt=""></a>
                 <h1>SpaceToday</h1>
             </div>
 
@@ -32,22 +32,23 @@
                 <div class="boxh-input">
                     <label for="login">
                         <i class="fa-solid fa-user"></i>
-                        <input type="email" name="login" id="header-login" placeholder="Login">
+                        <input type="email" name="login" id="header-login" placeholder="Login" required>
                     </label>
                 </div>
 
                 <div class="boxh-input">
                     <label for="password">
                         <i class="fa-solid fa-key"></i>
-                        <input type="password" name="password" id="header-password" placeholder="Password">
+                        <input type="password" name="password" id="header-password" placeholder="Password" required>
                     </label>
                 </div>
+                <button type="button" id="btn-header">Login</button>
             </div>
         </div>
     </header>
 
     <main>
-        <section>
+        <section class="sobre">
             <div class="container">
                 <img src="./img/loja.avif" alt="Front-loja" class="front-loja">
                 <div>
@@ -85,7 +86,7 @@
                                 <a href="#"><img src="./img/camisa et.webp" alt="Camisa" /></a>
                                 <h3>T-shirt - ET de varginha</h3>
                                 <p>R$ 69,90</p>
-                                <button type="button">Adicionar ao carrinho</button>
+                                <button type="button" class="btn-product">Adicionar ao carrinho</button>
                             </div>
                         </li>
                         <li>
@@ -93,7 +94,7 @@
                                 <a href="#"><img src="./img/camisa 1.webp" alt="Camisa"></a>
                                 <h3>T-shirt - ET de varginha</h3>
                                 <p>R$ 80,00</p>
-                                <button type="button">Adicionar ao carrinho</button>
+                                <button type="button" class="btn-product">Adicionar ao carrinho</button>
                             </div>
                         </li>
                         <li>
@@ -101,7 +102,7 @@
                                 <a href="#"><img src="./img/camisa et 3.webp" alt="Camisa"></a>
                                 <h3>T-shirt - ET de varginha</h3>
                                 <p>R$ 55,90</p>
-                                <button type="button">Adicionar ao carrinho</button>
+                                <button type="button" class="btn-product">Adicionar ao carrinho</button>
                             </div>
                         </li>
                         <li>
@@ -109,7 +110,7 @@
                                 <a href="#"><img src="./img/camisa 4.webp" alt="Camisa"></a>
                                 <h3>T-shirt - ET de varginha</h3>
                                 <p>R$ 71,40</p>
-                                <button type="button">Adicionar ao carrinho</button>
+                                <button type="button" class="btn-product">Adicionar ao carrinho</button>
                             </div>
                         </li>
                     </ul>

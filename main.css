@@ -10,6 +10,7 @@
 body {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.925);
+    width: 100%;
 }
 
 .container {
@@ -31,11 +32,11 @@ header .container, section .container {
 .logo-header {
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .logo-header img {
     width: 34px;
+    margin-right: 8px;
 }
 
 header h1 {
@@ -61,6 +62,7 @@ header ul li a:hover {
 .form-header {
     display: flex;
     gap: 8px;
+    align-items: center;
 }
 
 .boxh-input label {
@@ -78,9 +80,22 @@ header ul li a:hover {
     width: 90%;
 }
 
+#btn-header {
+    width: 60px;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.sobre {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 section img {
     max-width: 500px;
-    width: 90%;
+    width: 100%;
 }
 
 section h2 {
@@ -89,6 +104,7 @@ section h2 {
     border-bottom: 2px solid rgb(0, 255, 0);
     width: 100%;
 }
+
 
 section p {
     color: #ffffffd5;
@@ -133,7 +149,7 @@ section h3 {
 }
 
 button {
-    width: 240px;
+    width: 90%;
     border: none;
     background-color: rgb(0, 255, 0);
     color: #080808;
@@ -148,4 +164,78 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+
+    header .container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    header {
+        padding-bottom: 12px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #btn-header {
+        height: 20px;
+        border-radius: 10px;
+        padding: 1px 0;
+        font-size: 12px;
+    }
+
+    
+    .container {
+        padding: 12px;
+        
+    }
+
+    .form-header {
+        margin-top: 10px;
+    }
+
+    .sobre > .container {
+        flex-wrap: wrap;
+        max-width: 100%;
+        align-items: center;
+        margin: 0;
+        padding: 0 12px;
+    }
+
+    .produtos-lista {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 8px;
+        gap: 8px;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    .produtos-lista > li {
+        width: 40%;
+    }
+
+    .produto {
+        width: 100%;
+    }
+
+    .produto img {
+        width: 100%;
+    }
+
+    .btn-product {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer {
+        font-size: 12px;
+    }
+
+    .btn-product {
+        font-size: 10px;
+    }
 }
