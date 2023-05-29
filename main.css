@@ -184,7 +184,7 @@ footer {
 }
 
 
-@media screen and (min-width: 700px) and (max-width: 1040px) {
+@media screen and (min-width: 601px) and (max-width: 1040px) {
 
     header .container {
         flex-wrap: wrap;
@@ -248,7 +248,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 280px) and (max-width: 414px) {
+@media screen and (min-width: 280px) and (max-width: 600px) {
 
     .produtos-lista {
         display: flex;
